@@ -204,8 +204,6 @@
 
 	  fi
 
-  	#For each tools of the target categorie
-  	# For each tool in the category
 	# For each tool in the category
 	for i in $tname; do
     # Create the full Exec command with proper escaping for nested quotes
@@ -219,8 +217,6 @@
         	sed "s|Categories=.*|Categories=$namecat;|" > /usr/share/blackmate/ba-$i.desktop
 	done
 
-
-
   #End of the current categorie
   done
 
@@ -233,4 +229,4 @@
   rm -rf /usr/share/blackmate/tmp/ 2> /dev/null || true
   rm /usr/share/blackmate/blackarch.db.tar.gz 2> /dev/null || true
 
-  echo -e "\033[32m[*]\e[0m Done, in order to have a correct display of the new menu, you may need to restart kde";
+  echo -e "\033[32m[*]\e[0m Done, in order to have a correct display of the new menu, you may need to restart plasma";
