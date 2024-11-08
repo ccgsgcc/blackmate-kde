@@ -8,15 +8,10 @@ Blackmate is a generator for the tools list of BlackArch Linux OS, made for the 
 ## How to 
 
 ```
-git clone https://github.com/Anyon3/blackmate
+git clone https://github.com/ccgsgcc/blackmate-kde.git
 mv blackmate /usr/share/
 cd /usr/share/blackmate
 sh blackmate.sh
 ```
-## With pacman
 
-```
-sudo pacman -S blackmate
-sudo blackmate
-```
-License GNU/GPL v3, code written by Dimitri Mader (dimitri@linux.com)
+License GNU/GPL v3, code written by Dimitri Mader (dimitri@linux.com) and ccgsgcc(just small edit) ;)
