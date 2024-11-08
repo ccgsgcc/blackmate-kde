@@ -1,5 +1,5 @@
 # BlackMate
-
+This repository is based on [blackmate-xfce4](https://github.com/Anyon3/blackmate).
 ![Alt text](blackmate.png?raw=true "Title")
 
 ## Blackmate
